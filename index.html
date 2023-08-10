@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      left: '350px',
+      opacity: '0.10',
+      height: '120px',
+      width: '130px'
+    });
+  });
+});
+</script> 
+</head>
+<body>
+
+<button>Animation</button>
+
+<p>Animation in jQuery</p>
+
+<div style="background:#98bf21; 
+height:120px;
+ width:100px;  
+ animation-duration: 4s; 
+ animation-delay: 2s;
+position:absolute;">
+ </div> 
+
+</body>
+</html>
